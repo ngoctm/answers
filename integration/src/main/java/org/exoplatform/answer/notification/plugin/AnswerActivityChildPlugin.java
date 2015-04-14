@@ -14,15 +14,15 @@
 * You should have received a copy of the GNU General Public License
 * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
-package org.exoplatform.forum.notification.plugin;
+package org.exoplatform.answer.notification.plugin;
 
+import org.exoplatform.answer.ext.activity.ForumActivityUtils;
 import org.exoplatform.commons.api.notification.NotificationContext;
 import org.exoplatform.commons.api.notification.model.NotificationInfo;
 import org.exoplatform.commons.api.notification.plugin.AbstractNotificationChildPlugin;
 import org.exoplatform.commons.api.notification.service.template.TemplateContext;
 import org.exoplatform.commons.notification.template.TemplateUtils;
 import org.exoplatform.container.xml.InitParams;
-import org.exoplatform.forum.ext.activity.ForumActivityUtils;
 import org.exoplatform.social.core.activity.model.ExoSocialActivity;
 
 public class AnswerActivityChildPlugin extends AbstractNotificationChildPlugin {

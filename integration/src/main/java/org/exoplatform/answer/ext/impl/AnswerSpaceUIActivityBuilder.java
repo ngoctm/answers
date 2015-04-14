@@ -1,4 +1,4 @@
-package org.exoplatform.forum.ext.impl;
+package org.exoplatform.answer.ext.impl;
 
 import org.exoplatform.social.core.activity.model.ExoSocialActivity;
 import org.exoplatform.social.webui.activity.BaseUIActivity;

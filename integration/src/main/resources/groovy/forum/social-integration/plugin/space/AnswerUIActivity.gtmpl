@@ -27,7 +27,7 @@
   import org.exoplatform.social.core.space.model.Space;
   import org.exoplatform.social.webui.Utils;
   import org.exoplatform.social.core.service.LinkProvider;
-  import org.exoplatform.forum.ext.impl.AnswersSpaceActivityPublisher;
+  import org.exoplatform.answer.ext.impl.AnswersSpaceActivityPublisher;
 
   def pcontext = Util.getPortalRequestContext();
   

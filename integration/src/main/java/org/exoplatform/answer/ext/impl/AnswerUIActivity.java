@@ -1,4 +1,4 @@
-package org.exoplatform.forum.ext.impl;
+package org.exoplatform.answer.ext.impl;
 
 import java.util.Collection;
 import java.util.Date;

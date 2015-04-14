@@ -1,9 +1,9 @@
-package org.exoplatform.forum.ext.impl;
+package org.exoplatform.answer.ext.impl;
 
+import org.exoplatform.answer.ext.activity.ForumActivityBuilder;
 import org.exoplatform.faq.service.Question;
 import org.exoplatform.faq.service.Utils;
 import org.exoplatform.forum.common.CommonUtils;
-import org.exoplatform.forum.ext.activity.ForumActivityBuilder;
 import org.exoplatform.social.core.space.SpaceUtils;
 
 public class ActivityUtils {

@@ -8,6 +8,8 @@ import javax.jcr.NodeIterator;
 import javax.jcr.query.QueryManager;
 import javax.jcr.query.QueryResult;
 
+import org.exoplatform.answer.extras.injection.utils.ExoNameGenerator;
+import org.exoplatform.answer.extras.injection.utils.LoremIpsum4J;
 import org.exoplatform.container.PortalContainer;
 import org.exoplatform.faq.service.Answer;
 import org.exoplatform.faq.service.Category;
@@ -21,8 +23,6 @@ import org.exoplatform.faq.service.impl.JCRDataStorage;
 import org.exoplatform.forum.common.CommonUtils;
 import org.exoplatform.forum.common.jcr.KSDataLocation;
 import org.exoplatform.forum.common.jcr.PropertyReader;
-import org.exoplatform.forum.extras.injection.utils.ExoNameGenerator;
-import org.exoplatform.forum.extras.injection.utils.LoremIpsum4J;
 import org.exoplatform.services.bench.DataInjector;
 import org.exoplatform.services.jcr.ext.common.SessionProvider;
 import org.exoplatform.services.log.ExoLogger;

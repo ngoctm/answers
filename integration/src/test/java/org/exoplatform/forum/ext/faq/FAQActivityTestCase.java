@@ -29,6 +29,8 @@ import java.util.List;
 import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
+
+import org.exoplatform.answer.ext.impl.AnswersSpaceActivityPublisher;
 import org.exoplatform.container.ExoContainerContext;
 import org.exoplatform.faq.service.Answer;
 import org.exoplatform.faq.service.Category;
@@ -44,7 +46,6 @@ import org.exoplatform.faq.service.QuestionLanguage;
 import org.exoplatform.faq.service.Utils;
 import org.exoplatform.faq.service.impl.MultiLanguages;
 import org.exoplatform.forum.common.NotifyInfo;
-import org.exoplatform.forum.ext.impl.AnswersSpaceActivityPublisher;
 import org.exoplatform.social.core.activity.model.ExoSocialActivity;
 import org.exoplatform.social.core.manager.ActivityManager;
 

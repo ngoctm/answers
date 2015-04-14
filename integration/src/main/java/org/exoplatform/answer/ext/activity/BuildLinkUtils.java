@@ -14,7 +14,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
-package org.exoplatform.forum.ext.activity;
+package org.exoplatform.answer.ext.activity;
 
 import java.util.Collection;
 import java.util.Iterator;
