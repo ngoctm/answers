@@ -107,7 +107,7 @@
     <component-plugin>
       <name>AnswerDataInitialize</name>
       <set-method>addSpaceListener</set-method>
-      <type>org.exoplatform.forum.ext.impl.AnswerDataInitialize</type>
+      <type>org.exoplatform.answer.ext.impl.AnswerDataInitialize</type>
       <init-params>
 				<value-param>
 					<name>portletName</name>
@@ -122,7 +122,7 @@
     <component-plugin>
       <name>AnswerEventListener</name>
       <set-method>addListenerPlugin</set-method>
-      <type>org.exoplatform.forum.ext.impl.AnswersSpaceActivityPublisher</type>
+      <type>org.exoplatform.answer.ext.impl.AnswersSpaceActivityPublisher</type>
     </component-plugin>
   </external-component-plugins>
 
@@ -156,8 +156,8 @@
           <object type="org.exoplatform.social.webui.activity.UIActivityExtension">
             <field name="type"><string>org.exoplatform.social.webui.activity.BaseUIActivity</string></field>
             <field name="name"><string>ks-answer:spaces</string></field>
-            <field name="component"><string>org.exoplatform.forum.ext.impl.AnswerUIActivity</string></field>
-            <field name="activityBuiderClass"><string>org.exoplatform.forum.ext.impl.AnswerSpaceUIActivityBuilder</string></field>
+            <field name="component"><string>org.exoplatform.answer.ext.impl.AnswerUIActivity</string></field>
+            <field name="activityBuiderClass"><string>org.exoplatform.answer.ext.impl.AnswerSpaceUIActivityBuilder</string></field>
           </object>
         </object-param>
       </init-params>
