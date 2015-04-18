@@ -223,7 +223,7 @@ public class AnswersSpaceActivityPublisher extends AnswerEventListener {
       //
       String answerContent = ActivityUtils.processContent(answer.getResponses());
       
-      if (activityId != null) {
+      if (activityId != null && answer.getApprovedAnswers()) {
         try {
           ExoSocialActivity activity = activityM.getActivity(activityId);
           ExoSocialActivity comment = createCommentForAnswer(userIdentity, answer);
